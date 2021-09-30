@@ -1,0 +1,75 @@
+ .user_input svg {
+    stroke: rgba(175, 175, 175, 0.92);
+    fill: rgba(175, 175, 175, 0.92);
+    position: absolute;
+    left: 500px;
+    top: 150px;
+}
+ .user_input .form {
+    position: absolute;
+    top: 150px;
+    left: 900px;
+    width: 500px;
+    height: 350px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    background: rgba(25, 25, 25, 0.83);
+    border-radius: 20px 20px 20px 20px;
+}
+
+ .user_input .Y_value {
+    margin: 5% 0 0;
+    position: relative;
+    top: 15px;
+    left: 130px;
+}
+ .user_input .Y_value #Y_value {
+    width: 145px;
+}
+ .user_input .X_value {
+    margin: 5% 0 0;
+    position: relative;
+    top: 15px;
+    left: 130px;
+}
+ .user_input .X_value #X_value {
+    width: 153px;
+}
+ .user_input .R_value {
+    margin: 5% 0 0;
+    position: relative;
+    top: 15px;
+    left: 130px;
+}
+ .user_input .R_value #R_value {
+    width: 153px;
+}
+ .user_input .Error_text {
+    margin: 15px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: red;
+    font-size: 20px;
+}
+ .user_input .Error_text span {
+    margin: 4px;
+}
+ .user_input .buttons {
+    position: absolute;
+    left: 100px;
+    top: 270px;
+}
+ .user_input .buttons #submit ,#reset {
+    color: whitesmoke;
+    background: rgba(49, 49, 49, 0.83);
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+ .user_input .buttons #submit:hover ,#reset:hover {
+     color: green;
+ }
+
